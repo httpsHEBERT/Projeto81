@@ -9,7 +9,9 @@ const DrawerNavigator = () => {
     return(
         <Drawer.Navigator>
             <Drawer.Screen name="Tela Inicial" component={TabNavigator}/>
-            <Drawer.Screen name="TPerfil" component={Profile}/>
+            <Drawer.Screen name="Perfil" component={Profile}/>
         </Drawer.Navigator>
     )
 }
+
+export default DrawerNavigator;
